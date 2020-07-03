@@ -1,10 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import axios from 'axios';
-import Home from './potter/components/Home';
-import SortingHat from './potter/components/SortingHat';
-import Spells from './potter/components/Spells';
-import Characters from './potter/components/Characters';
+import { Home, SortingHat, Spells, Characters } from './components';
+
 
 
 import './App.css';
